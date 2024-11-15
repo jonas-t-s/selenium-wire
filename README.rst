@@ -1,5 +1,7 @@
 This is a fork of selenium-wire. I try my best to keep it up to date, but I cannot guarantee for anything.
 
+To install please use ```pip install git+https://github.com/jonas-t-s/selenium-wire/```
+
 Selenium Wire
 =============
 
