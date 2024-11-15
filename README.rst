@@ -1,4 +1,4 @@
-**Selenium Wire is no longer being maintained. Thank you for your support and all your contributions.**
+This is a fork of selenium-wire. I try my best to keep it up to date, but I cannot guarantee for anything.
 
 Selenium Wire
 =============
