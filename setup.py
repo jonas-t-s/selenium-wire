@@ -44,6 +44,7 @@ setup(
         'pyparsing>=2.4.2',
         'pysocks>=1.7.1',
         'selenium>=4.0.0',
+        'setuptools',
         'wsproto>=0.14',
         'zstandard>=0.14.1',
     ],
