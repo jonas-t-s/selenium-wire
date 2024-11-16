@@ -33,7 +33,7 @@ setup(
     include_package_data=True,
     python_requires='>=3.6',
     install_requires=[
-        'blinker==1.7.0',
+        'blinker>=1.4,<1.7.1',
         'brotli>=1.0.9',
         'certifi>=2019.9.11',
         "h2>=4.0; python_version>='3.6.0'",
