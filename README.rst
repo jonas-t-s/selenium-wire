@@ -1,8 +1,8 @@
 This is a fork of selenium-wire. I try my best to keep it up to date, but I cannot guarantee for anything.
 
-To install please use ```pip install git+https://github.com/jonas-t-s/selenium-wire/```
+To install please use ``pip install git+https://github.com/jonas-t-s/selenium-wire/``
 
-For use in the ```requirements.txt``` just enter the following URL on one line: ```git+https://github.com/jonas-t-s/selenium-wire/```
+For use in the ``requirements.txt`` just enter the following URL on one line: ``git+https://github.com/jonas-t-s/selenium-wire/``
 
 Selenium Wire
 =============
@@ -137,7 +137,7 @@ Install using pip:
 
 .. code:: bash
 
-    pip install selenium-wire
+    pip install git+https://github.com/jonas-t-s/selenium-wire/
 
 If you get an error about not being able to build cryptography you may be running an old version of pip. Try upgrading pip with ``python -m pip install --upgrade pip`` and then re-run the above command.
 
@@ -167,6 +167,9 @@ Selenium Wire requires OpenSSL for decrypting HTTPS requests. This is probably a
 
     # For Linux alpine
     sudo apk add openssl
+
+    # For Arch Linux Systems:
+    sudo pacman -S openssl
 
 **MacOS**
 
