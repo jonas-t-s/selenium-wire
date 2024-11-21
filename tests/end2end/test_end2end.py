@@ -84,8 +84,11 @@ def create_driver(
     seleniumwire_options=None,
     desired_capabilities=None,
 ):
+    """Create a Selenium Wire webdriver instance."""
+    from selenium.webdriver.chrome.service import Service
+    service = Service(executable_path=driver_path)
     driver = webdriver.Chrome(
-        executable_path=driver_path,
+        service=service,
         options=chrome_options,
         seleniumwire_options=seleniumwire_options,
         desired_capabilities=desired_capabilities,
